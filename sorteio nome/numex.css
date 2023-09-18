@@ -1,0 +1,83 @@
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(Magical\ forest.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilizando o container principal */
+.container {
+    background-color:#1d0126;;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilizando o título "SORTEIO" */
+.text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'mercy' ;
+}
+
+/* Estilizando as entradas de número mínimo e máximo */
+.entradas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.entrada {
+    flex: 1;
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilizando o botão "Sortear" */
+#sortear {
+    background-color:#a910a9 ;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#sortear:hover {
+    background-color:#a910a9;
+}
+
+/* Estilizando o resultado */
+#resultado {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
+}
+@font-face {
+    font-family:'mercy' ;
+    src: url(Mercy\ Christole.ttf);
+}

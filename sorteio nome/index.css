@@ -1,0 +1,73 @@
+/* Reset de estilos para limpar qualquer estilo padrão do navegador */
+body, h1, p, label, textarea, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilizando o corpo da página */
+body {
+    background-image:url(Magical\ forest.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilizando o container principal */
+.container {
+    background-color: #1d0126;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilizando o título "SORTEAR NOMES" */
+h2 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family:'mercy';
+}
+
+/* Estilizando o campo de entrada de nomes */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0000007a;
+    border-radius: 5px;
+    resize: vertical;
+   
+}
+
+/* Estilizando o botão "Sortear" */
+button.sortear {
+    background-color: #ca1bd0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'mercy';
+}
+
+/* Estilizando a seção de resultados */
+.resultado {
+    margin-top: 20px;
+}
+
+/* Estilizando o resultado da sorteio */
+.resultado p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family:'mercy' ;
+    src: url(Mercy\ Christole.ttf);
+}
